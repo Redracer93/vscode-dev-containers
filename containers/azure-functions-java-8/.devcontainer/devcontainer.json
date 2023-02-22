@@ -14,7 +14,7 @@
 					{
 					  "default": true,
 					  "name": "JavaSE-1.8",
-					  "path": "/usr/lib/jvm/zulu-8-amd64",
+					  "path": "/usr/lib/jvm/zulu-8-amd64"
 					}
 				]
 			},
@@ -30,6 +30,6 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
 
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
 }
